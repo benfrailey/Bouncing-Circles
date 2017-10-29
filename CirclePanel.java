@@ -4,21 +4,21 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class My711Panel extends JPanel
+public class CirclePanel extends JPanel
 {
 
-	private My711Circle myCircle, myCircle2;
+	private Circles myCircle, myCircle2;
 	private javax.swing.Timer timer;
 	boolean mousePressed = false;
 	
-	public My711Panel(int width, int height)
+	public CirclePanel(int width, int height)
 	{
 		setBackground(Color.cyan); // you could have the client pass in the color when the panel is constructed
 		setPreferredSize(new Dimension(width, height)); // size is expressed in terms of an anonymous Dimension object
 		
-		myCircle = new My711Circle(50, 50, 20, Color.blue);
+		myCircle = new Circles(50, 50, 20, Color.green);
 		
-		myCircle2 = new My711Circle(350, 350, 20, Color.red);
+		myCircle2 = new Circles(350, 350, 20, Color.red);
 		
 		myCircle.setSpeed(5);
 		

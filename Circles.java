@@ -1,13 +1,13 @@
 import java.awt.*;
 
 
-public class My711Circle
+public class Circles
 {
 
 	private int centerX, centerY, radius, speed, direction;
 	private Color theColor;
 	
-	public My711Circle(int x, int y, int r, Color c)
+	public Circles(int x, int y, int r, Color c)
 	{
 	
 		centerX = x;

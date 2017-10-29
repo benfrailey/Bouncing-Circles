@@ -1,11 +1,8 @@
-
-
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.Scanner;
 
-public class My711Frailey
+public class BouncingCircles
 {
 
 	public static void main(String[] args)
@@ -15,7 +12,7 @@ public class My711Frailey
 		theWindow.setSize(400, 400);
 		theWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		My711Panel thePanel = new My711Panel(400, 400);
+		CirclePanel thePanel = new CirclePanel(400, 400);
 		
 		Container thePane = theWindow.getContentPane();
 		
