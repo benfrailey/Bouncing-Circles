@@ -22,7 +22,7 @@ public class CirclePanel extends JPanel
 		
 		myCircle.setSpeed(10);
 		
-		myCircle2.setSpeed(5);
+		myCircle2.setSpeed(15);
 		
 		timer = new javax.swing.Timer(33, new MoveListener());
 		
