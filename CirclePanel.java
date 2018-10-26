@@ -47,7 +47,7 @@ public class CirclePanel extends JPanel
 				
 				myCircle.move();
 				myCircle2.move();
-				myCircle.turn(2);
+				myCircle.turn(3);
 				myCircle2.turn(2);
 				if(myCircle.getX() - myCircle.getRadius() <= 0 || myCircle.getX() + myCircle.getRadius() >= getWidth())
 					myCircle.setSpeed(myCircle.getSpeed() * -1);
