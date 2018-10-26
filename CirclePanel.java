@@ -20,7 +20,7 @@ public class CirclePanel extends JPanel
 		
 		myCircle2 = new Circles(350, 350, 20, Color.blue);
 		
-		myCircle.setSpeed(5);
+		myCircle.setSpeed(10);
 		
 		myCircle2.setSpeed(5);
 		
